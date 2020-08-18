@@ -1,0 +1,16 @@
+.masthead{
+    height: 92vh;
+    background-color: #1a2b2b;
+    background-image: url("bg-image.png");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+.front-text{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.text-padding{
+    padding-top: 200px;
+}

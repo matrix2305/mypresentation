@@ -1,0 +1,26 @@
+.portfolio{
+    position: relative;
+}
+
+.portfolio-details{
+    display: none;
+    background-color: rgba(8,20,29);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.portfolio:hover .portfolio-details{
+    display: block !important;
+}
+
+.img-portfolio{
+    width: 100%;
+}
+
+
+.modal-dialog {
+    max-width: 700px !important;
+}

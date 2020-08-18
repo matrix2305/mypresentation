@@ -1,0 +1,24 @@
+.rotated{
+    opacity: 1 !important;
+    z-index: 1;
+    -webkit-animation: IconRotate 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+    animation: IconEffect 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+}
+
+@keyframes IconEffect {
+    0%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100%{
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+}
+
+.icon{
+    opacity: 0.5;
+}
+
+
+
