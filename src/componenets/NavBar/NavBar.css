@@ -7,3 +7,118 @@
     color: black !important;
     border-radius: 3px;
 }
+
+.mobile-nav-bar{
+    position: fixed;
+    width: 50%;
+    background-color: #08141d;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+    color: black !important;
+    border-right: 1px solid white;
+    z-index: 100000 !important;
+    flex-direction: column;
+}
+
+.show-mobile-nav-bar {
+    display: flex;
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.navbar-mobile-nav {
+    list-style: none;
+    padding-left: 0 !important;
+    width: 100%;
+}
+
+.navbar-mobile-nav .nav-active {
+    border-radius: 0 !important;
+}
+
+.navbar-mobile-nav a {
+    color: white;
+}
+
+.navbar-mobile-nav a:hover{
+    color: #bebebe;
+}
+
+
+
+.mobile-toggler{
+    font-size: 25px;
+    color: #e5e5e5;
+}
+
+
+@-webkit-keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.close-mobile-menu {
+    -webkit-animation: close-effect 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: close-effect 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes close-effect {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+        display: flex !important;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 0;
+        display: none !important;
+    }
+}
+@keyframes close-effect {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .mobile-toggler{
+        display: none;
+    }
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-import {BrowserRouter, Route} from "react-router-dom";
 import NavBar from "./componenets/NavBar/NavBar";
 import Masthead from "./componenets/Masthead/Masthead";
 import AboutMe from "./componenets/AboutMe/AboutMe";

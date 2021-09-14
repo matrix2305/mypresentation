@@ -20,5 +20,13 @@
     opacity: 0.5;
 }
 
+.tech-sidebar {
+    width: 20%;
+}
+
+.tech-description {
+    width: 80%;
+    text-align: center;
+}
 
 

@@ -1,4 +1,7 @@
 html{
+    margin: 0 !important;
+    padding: 0 !important;
     scroll-behavior: smooth;
     scroll-padding-top: 70px;
+    padding-bottom: -50px !important;
 }

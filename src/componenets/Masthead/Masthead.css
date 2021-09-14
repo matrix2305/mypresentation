@@ -11,6 +11,9 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.text-padding{
-    padding-top: 200px;
+
+@media screen and (max-width: 600px) {
+    .masthead{
+        height: 50vh;
+    }
 }

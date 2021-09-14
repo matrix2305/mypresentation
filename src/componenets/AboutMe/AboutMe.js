@@ -1,4 +1,5 @@
 import React from "react";
+import './AboutMe.css';
 
 function AboutMe(){
     return(
@@ -13,9 +14,9 @@ function AboutMe(){
                 <p>I'm showed interesting for computer science and programming yet since an early age.</p>
                 <p>My English level is a B1.</p>
                 <h3>My work experience:</h3>
-                <div className='col-8 offset-3'>
-                    <div className='row'>
-                        <div className='card col-4 pl-0 pr-0 mr-2 float-left rounded-0'>
+                <div className=''>
+                    <div className='experiences'>
+                        <div className='card m-1 rounded-0'>
                             <div className='card-header'>
                                 <h5>Primart D.O.O</h5>
                             </div>
@@ -26,7 +27,7 @@ function AboutMe(){
                                 <p><b>Period: </b>August 2017 - May 2018</p>
                             </div>
                         </div>
-                        <div className='card col-4 pl-0 pr-0 mr-2 float-left rounded-0'>
+                        <div className='card m-1 rounded-0'>
                             <div className='card-header'>
                                 <h5>PEKM Kabeltechnik s.r.o</h5>
                             </div>
@@ -35,6 +36,17 @@ function AboutMe(){
                             </div>
                             <div className='card-footer'>
                                 <p><b>Period: </b>March 2019 - June 2019</p>
+                            </div>
+                        </div>
+                        <div className='card m-1 rounded-0'>
+                            <div className='card-header'>
+                                <h5>Infogram DOO</h5>
+                            </div>
+                            <div className='card-body'>
+                                <p>I worked at Infogram DOO in Belgrade. I'm worked on projects for MCF, Traffic Safety Agency and on domestic e-commerce. I took part in the projection of the architecture and project management.</p>
+                            </div>
+                            <div className='card-footer'>
+                                <p><b>Period: </b>August 2020 - currently</p>
                             </div>
                         </div>
                     </div>

@@ -13,9 +13,8 @@ function Footer(){
 
                     <div className="col-md-3 mb-md-0 mb-3">
                         <h5>Contact me</h5>
-                        <p><i className="fas fa-envelope-square"></i><b> E-mail: </b><a href='mailto:srki.rado@gmail.com'>srki.rado@gmail.com</a></p>
-                        <p><i className="fas fa-phone-square"></i><b> Phone: </b> +381 / (0) 63-19-37-009</p>
-                        <p><i className="fas fa-map-marker-alt"></i> <b> Address: </b> Belgrade, Zemun, Episkopa Nikolaja *</p>
+                        <p><i className="fas fa-envelope-square"/><b> E-mail: </b><a href='mailto:srki.rado@gmail.com'>srki.rado@gmail.com</a></p>
+                        <p><i className="fas fa-phone-square"/><b> Phone: </b> +381 / (0) 63-19-37-009</p>
                     </div>
                 </div>
                 <div className='copyright text-center py-3'>
