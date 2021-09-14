@@ -18,7 +18,7 @@ function Footer(){
                     </div>
                 </div>
                 <div className='copyright text-center py-3'>
-                    <p>All rights reserved &copy; by Srdjan Radosavljevic 2020</p>
+                    <p>All rights reserved &copy; by Srdjan Radosavljevic {new Date().getFullYear()}</p>
                 </div>
             </div>
         </footer>
